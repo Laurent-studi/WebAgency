@@ -1,0 +1,176 @@
+#services p{
+    max-width: 60%;
+}
+.nav-link:hover{
+    color: brown;
+}
+
+/** Section Services **/
+
+.line{
+    position: relative;
+    left: 42%;
+    top: 9%;
+    width: 15%;
+    height: 2px;
+    background-color: #70abcf;
+}
+.circle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #70abcf;
+    border-radius: 50%;
+    right: 50%;
+}
+.fa-circle{
+    border: 5px solid #fff;
+}
+.icon{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.icon i{
+    position: relative;
+    color: #70abcf;
+}
+
+.nav_projets{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 40%;
+    background-color: #fcfcfc;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+.nav_projets a{
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    width: 25%;
+    font-size: 1em;
+    color: #70abcf;
+    opacity: 1;
+
+}
+.nav_projets a:hover{
+    color: #fff;
+    background-color: #70abcf;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+.nav_projets a:hover:after{
+    position: absolute;
+    display: block;
+    content: "";
+    left: 50%;
+    margin-top: 21px;
+    margin-left: -14px;
+    width: 3px;
+    height: 0;
+    border-style: solid;
+    border-color: #70abcf transparent;
+    border-width: 10px 10px 0 10px;
+    
+}
+/** Section Portfolio **/
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.album figure{
+    width: 300px;
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+}
+.album figure img{
+    width: 300px;
+}
+.album figcaption{
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s ease;
+
+}
+
+.album figcaption h4{
+    position: absolute;
+    top: -1px;
+    left: 10px;    
+}
+.album figcaption p{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+.album figure:hover figcaption{
+    height: 30%;
+    max-height: 100%;
+    margin-bottom: 0;
+    overflow: visible;
+}
+.fa-eye{
+    position: absolute;
+    top: -25px;
+    right: 26px;
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: #70abcf;
+    z-index: 5;
+}
+
+/** Footer **/
+
+#contact{
+    position: relative;
+}
+iframe{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+}
+.filtre{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(25, 25, 253, 0.164);
+}
+form{
+    position: relative;
+    max-width: 300px;
+    left: 45%;
+    transform: translateX(-50%);
+    z-index: 2;
+    opacity: 0.9;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
