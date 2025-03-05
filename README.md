@@ -44,7 +44,7 @@ webagency/
 - HTML5
 - CSS3
 - JavaScript
-- [Autres technologies utilisées]
+
 
 ## Contribution
 Les contributions sont les bienvenues ! N'hésitez pas à :
